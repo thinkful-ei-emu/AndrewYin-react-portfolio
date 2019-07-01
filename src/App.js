@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Hamburger from './components/Hamburger';
 
 class App extends React.Component {
 
@@ -15,7 +16,7 @@ class App extends React.Component {
       active: 'home'
     }
 
-    this.currentPage = {
+    this.Pages = {
       'home': <Home />,
       'about': <About />,
       'contact': <Contact />
@@ -35,8 +36,11 @@ class App extends React.Component {
         <Navbar
           changeActivePage={this.changeActivePage}
           />
+        <Hamburger
+          changeActivePage={this.changeActivePage}        
+        />
         <main>
-          {this.currentPage[this.state.active]}
+          {this.Pages[this.state.active]}
         </main>
         <Footer />
       </div>

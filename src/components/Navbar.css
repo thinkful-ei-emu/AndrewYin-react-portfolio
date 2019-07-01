@@ -1,25 +1,28 @@
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  height: 30px;
-  width: 100%;
-  top: 0;
-  z-index: 1;
+.top-nav {
+  display: none;
   /* background-color: white;
   box-shadow: 0 1px 5px gray;
   z-index: 1; */
 }
-nav p {
+.top-nav p {
   margin-right: auto;
   margin-left: 20px;
 }
 
-.nav-link {
+.top-nav .nav-link {
   margin-right: 20px;
   padding: 0;
-  border: none;
-  background: none;
+}
+
+@media only screen and (min-width: 450px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    top: 0;
+  }
 }

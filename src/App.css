@@ -9,6 +9,10 @@ body {
   min-width: 300px;
 }
 
+nav {
+  z-index: 1;
+}
+
 main {
   display: inline-block;
   position: relative;
@@ -20,4 +24,10 @@ main {
 p, button {
   font-size: 16px;
   line-height: 16px;
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
 }
