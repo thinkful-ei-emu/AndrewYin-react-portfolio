@@ -1,19 +1,18 @@
 import React from 'react';
-import './Contact.css'
+import './Contact.css';
 
 function Contact() {
-  return <>
-    <section className='contact-section'>
-      <header>
-        <h1>Contact Me</h1>
-      </header>
+  return (
+    <section id='contactMe' className='contactSection'>
+      <h1 className='sectionHeader'>Contact Me</h1>
       <form>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
+        <input type="text" placeholder="Name" required/>
+        <input type="email" placeholder="Email"  required/>
+        <textarea placeholder="Message" />
+        <input type='submit' value='Send' />
       </form>
     </section>
-  </>
+  );
 }
 
 export default Contact;

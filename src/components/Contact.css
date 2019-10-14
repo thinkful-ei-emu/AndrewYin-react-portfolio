@@ -1,27 +1,27 @@
-.contact-section {
+.contactSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
 }
 
-.contact-section form {
+.contactSection form {
   display: flex;
   flex-direction: column;
   width: 250px;
 }
 
-.contact-section input, textarea {
+.contactSection input, textarea {
   margin: 5px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact-section form {
+  .contactSection form {
     width: 500px;
   }
-  .contact-section input, textarea {
+  .contactSection input, textarea {
     margin: 10px;
   }
 }

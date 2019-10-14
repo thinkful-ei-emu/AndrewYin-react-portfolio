@@ -2,11 +2,9 @@ import React from 'react';
 import './About.css';
 
 function About() {
-  return <>
-    <section className='about-section'>
-      <header>
-        <h1>A bit about me</h1>
-      </header>
+  return (
+    <section id='aboutMe' className='aboutSection'>
+      <h1 className='sectionHeader'>A Bit About Me</h1>
       <section>
         <p>I enjoy playing all kinds of games, from video games to tabletop games.</p>
         <p>I am a tea addict; my favorite goes back and forth between honey and yogurt green tea.</p>
@@ -14,7 +12,7 @@ function About() {
         <p>I am an aspiring web developer.</p>
       </section>
     </section>
-  </>
+  );
 }
 
 export default About;

@@ -1,28 +1,37 @@
-.top-nav {
+.navbar {
   display: none;
-  /* background-color: white;
-  box-shadow: 0 1px 5px gray;
-  z-index: 1; */
 }
-.top-nav p {
+
+.navbar.sticky {
+  transition: 0.2s;
+  position: fixed;
+  top: 0;
+  background-color: black;
+}
+.navbar.sticky .nav-link {
+  color: white;
+}
+
+.navbar p {
   margin-right: auto;
   margin-left: 20px;
 }
 
-.top-nav .nav-link {
+.navbar .nav-link {
   margin-right: 20px;
   padding: 0;
+  /* color: white; */
 }
 
 @media only screen and (min-width: 450px) {
-  .top-nav {
+  .navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    position: absolute;
+    /* position: fixed; */
     height: 30px;
     width: 100%;
-    top: 0;
+    /* top: 100vh; */
   }
 }

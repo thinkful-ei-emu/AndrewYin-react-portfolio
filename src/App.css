@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: absolute;
   height: 100vh;
@@ -30,4 +34,34 @@ p, button {
 button {
   background: none;
   border: none;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; 
+  width: 60%;
+  border-bottom: solid 4px black;
+  height: 50px;
+  /* line-height: 50px; */
+  font-size: 32px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sectionHeader {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .sticky + .content {
+    padding-top: 30px;
+  }
 }
