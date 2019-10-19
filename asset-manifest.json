@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/AndrewYin-react-portfolio/static/css/main.22bfb662.chunk.css",
-    "main.js": "/AndrewYin-react-portfolio/static/js/main.c61f5bba.chunk.js",
-    "main.js.map": "/AndrewYin-react-portfolio/static/js/main.c61f5bba.chunk.js.map",
+    "main.css": "/AndrewYin-react-portfolio/static/css/main.65ace6c4.chunk.css",
+    "main.js": "/AndrewYin-react-portfolio/static/js/main.e6b0a3e1.chunk.js",
+    "main.js.map": "/AndrewYin-react-portfolio/static/js/main.e6b0a3e1.chunk.js.map",
     "runtime~main.js": "/AndrewYin-react-portfolio/static/js/runtime~main.6b5de333.js",
     "runtime~main.js.map": "/AndrewYin-react-portfolio/static/js/runtime~main.6b5de333.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/AndrewYin-react-portfolio/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/AndrewYin-react-portfolio/static/js/2.65aa1cca.chunk.js.map",
+    "static/js/2.c0cf6644.chunk.js": "/AndrewYin-react-portfolio/static/js/2.c0cf6644.chunk.js",
+    "static/js/2.c0cf6644.chunk.js.map": "/AndrewYin-react-portfolio/static/js/2.c0cf6644.chunk.js.map",
     "index.html": "/AndrewYin-react-portfolio/index.html",
-    "precache-manifest.ed586cc28a90072bc6cbe3f26a5e647e.js": "/AndrewYin-react-portfolio/precache-manifest.ed586cc28a90072bc6cbe3f26a5e647e.js",
+    "precache-manifest.4dc04f2db254059fe3aceeac310bdc2a.js": "/AndrewYin-react-portfolio/precache-manifest.4dc04f2db254059fe3aceeac310bdc2a.js",
     "service-worker.js": "/AndrewYin-react-portfolio/service-worker.js",
-    "static/css/main.22bfb662.chunk.css.map": "/AndrewYin-react-portfolio/static/css/main.22bfb662.chunk.css.map"
+    "static/css/main.65ace6c4.chunk.css.map": "/AndrewYin-react-portfolio/static/css/main.65ace6c4.chunk.css.map",
+    "static/media/5e-stuff-thumbnail.png": "/AndrewYin-react-portfolio/static/media/5e-stuff-thumbnail.bb0118de.png",
+    "static/media/catch-a-ride-thumbnail.png": "/AndrewYin-react-portfolio/static/media/catch-a-ride-thumbnail.1b205d97.png",
+    "static/media/nodejs.png": "/AndrewYin-react-portfolio/static/media/nodejs.13998167.png",
+    "static/media/portfolio_wallpaper.jpg": "/AndrewYin-react-portfolio/static/media/portfolio_wallpaper.3d911400.jpg",
+    "static/media/reactjs.png": "/AndrewYin-react-portfolio/static/media/reactjs.0f6f4a24.png",
+    "static/media/spaced-rep-thumbnail.png": "/AndrewYin-react-portfolio/static/media/spaced-rep-thumbnail.c1c3cb88.png"
   }
 }
