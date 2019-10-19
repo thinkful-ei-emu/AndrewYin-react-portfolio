@@ -11,15 +11,3 @@
   flex-direction: column;
   align-items: center;
 }
-/* 
-@media only screen and (max-width: 450px) {
-  .projectSection {
-    padding-top: 50px;
-  }
-} */
-
-/* @media only screen and (min-width: 768px) {
-  .projectShowcase {
-    width: 100%;
-  }
-} */

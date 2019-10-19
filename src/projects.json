@@ -1,8 +1,8 @@
 [
   {
     "name": "Catch-A-Ride",
-    "githubLink": "test",
-    "demoLink": "test",
+    "githubLink": "https://github.com/thinkful-ei-emu/Catch-A-Ride-CLIENT",
+    "demoLink": "https://catch-a-ride.now.sh/",
     "desc": "A rideshare or carpool web-app designed for college students who need to travel but are looking to save money.",
     "imgUrl": "catch-a-ride-thumbnail.png",
     "techStack": [
@@ -15,8 +15,8 @@
   },
   {
     "name": "5e Stuff",
-    "githubLink": "test",
-    "demoLink": "test",
+    "githubLink": "https://github.com/thinkful-ei-emu/andrewyin-capstone1-client",
+    "demoLink": "https://thawing-meadow-82803.herokuapp.com/characters",
     "desc": "An entertainment web-app to help you manage your Dungeons and Dragons 5e characters.",
     "imgUrl": "5e-stuff-thumbnail.png",
     "techStack": [
@@ -27,7 +27,7 @@
   },
   {
     "name": "Spaced Repetition",
-    "githubLink": "test",
+    "githubLink": "https://github.com/thinkful-ei-emu/nick-andrew-spaced-repetition-client",
     "demoLink": "https://nickandrewspacedrepetition.ygnick.now.sh/register",
     "desc": "An educational web-app that helps you learn a few common words in German using a spaced repetition algorithm.",
     "imgUrl": "spaced-rep-thumbnail.png",
