@@ -1,6 +1,15 @@
 footer {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;  
   text-align: center;
-  background-color: lightblue;
-  height: 300px;
+  background-color: #252934;
+  height: 250px;
+}
+
+.trademark {
+  width: 100%;
+  color: #525762;
+  position: absolute;
+  bottom: 0;
 }

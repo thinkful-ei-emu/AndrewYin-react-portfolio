@@ -7,13 +7,10 @@ import projects from '../projects.json';
 class Projects extends React.Component {
 
   render() {
-    let projectList = projects.map(project =>
+    let projectList = projects.map((project,index) =>
       <Project
-        key={project.id}
-        name={project.name}
-        githubLink={project.githubLink}
-        demoLink={project.demoLink}
-        imgUrl={project.imgUrl}
+        key={index}
+        project={project}
       />);
 
     return (

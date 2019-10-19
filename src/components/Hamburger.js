@@ -24,7 +24,7 @@ class Hamburger extends React.Component {
 
   render() {
     return <>
-      <span id='navOpen' className='top-nav'>
+      <span id='top-nav' className='top-nav'>
         <span className='hamburger' onClick={this.openSideNav}>
           <div className='hamburger-bar'></div>
           <div className='hamburger-bar'></div>
@@ -36,16 +36,16 @@ class Hamburger extends React.Component {
           <button id='closeBtn' className='closeBtn' >&times;</button>
         </span>
         <a href='#hero' className='nav-link'>
-          <button id='homeButton' onClick={() => this.closeSideNav()}>Home</button>
+          <button id='homeButton' onClick={this.closeSideNav}>Home</button>
         </a>
         <a href='#projects' className='nav-link'>
-          <button id='projectsButton' onClick={() => this.closeSideNav()}>Projects</button>
+          <button id='projectsButton' onClick={this.closeSideNav}>Projects</button>
         </a>
         <a href='#aboutMe' className='nav-link'>
-          <button id='aboutMeButton' onClick={() => this.closeSideNav()}>About</button>
+          <button id='aboutMeButton' onClick={this.closeSideNav}>About</button>
         </a>
         <a href='#contactMe' className='nav-link'>
-          <button id='contactMeButton' onClick={() => this.closeSideNav()}>Contact</button>
+          <button id='contactMeButton' onClick={this.closeSideNav }>Contact</button>
         </a>
       </nav>
     </>;

@@ -1,9 +1,40 @@
 [
   {
-    "id": 1,
-    "name": "test",
+    "name": "Catch-A-Ride",
     "githubLink": "test",
     "demoLink": "test",
-    "imgUrl": ""
+    "desc": "A rideshare or carpool web-app designed for college students who need to travel but are looking to save money.",
+    "imgUrl": "catch-a-ride-thumbnail.png",
+    "techStack": [
+      "reactjs",
+      "nodejs",
+      "css3",
+      "goauth",
+      "gmaps"
+    ]
+  },
+  {
+    "name": "5e Stuff",
+    "githubLink": "test",
+    "demoLink": "test",
+    "desc": "An entertainment web-app to help you manage your Dungeons and Dragons 5e characters.",
+    "imgUrl": "5e-stuff-thumbnail.png",
+    "techStack": [
+      "reactjs",
+      "nodejs",
+      "css3"
+    ]
+  },
+  {
+    "name": "Spaced Repetition",
+    "githubLink": "test",
+    "demoLink": "https://nickandrewspacedrepetition.ygnick.now.sh/register",
+    "desc": "An educational web-app that helps you learn a few common words in German using a spaced repetition algorithm.",
+    "imgUrl": "spaced-rep-thumbnail.png",
+    "techStack": [
+      "reactjs",
+      "nodejs",
+      "css3"
+    ]
   }
 ]

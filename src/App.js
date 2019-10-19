@@ -9,43 +9,11 @@ import Footer from './components/Footer';
 import Hamburger from './components/Hamburger';
 
 class App extends React.Component {
-  // constructor() {
-  //   super();
-
-  //   this.state = {
-  //     active: 'home',
-  //     currentWidth: window.innerWidth
-  //   };
-
-  //   this.Pages = {
-  //     'home': <Hero />,
-  //     'about': <About />,
-  //     'contact': <Contact />
-  //   };
-  // }
-
-
-  // resize = () => {
-  //   this.setState({
-  //     currentWidth: window.innerWidth
-  //   },
-  //   console.log(this.state.currentWidth));
-  // }
-
-  // changeActivePage = (e) => {
-  //   console.log(e.target.id);
-  //   this.setState({
-  //     active: e.target.id
-  //   });
-  // }
-
   render() {
     return (
       <div className='App'>
         <Hamburger />
-
         <Hero />
-
         <Navbar />
 
         <main className='content'>

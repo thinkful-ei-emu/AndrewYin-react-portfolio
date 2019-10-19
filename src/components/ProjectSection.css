@@ -6,35 +6,20 @@
 
 
 .projectSection {
-  padding-top: 30px;
+  padding: 75px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+/* 
 @media only screen and (max-width: 450px) {
   .projectSection {
     padding-top: 50px;
   }
-}
+} */
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .projectShowcase {
     width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
-  .projectHeader {
-    margin-bottom: 50px;
-  }
-  .projectThumbnail {
-    margin-bottom: 50px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .projectThumbnail {
-    height: 350px;
-    width: 450px;  
-  }
-}
+} */

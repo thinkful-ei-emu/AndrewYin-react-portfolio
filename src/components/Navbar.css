@@ -3,10 +3,10 @@
 }
 
 .navbar.sticky {
-  transition: 0.2s;
+  transition: 0.5s;
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: var(--navbar-color);
 }
 .navbar.sticky .nav-link {
   color: white;
@@ -29,8 +29,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    /* position: fixed; */
-    height: 30px;
+    position: absolute;
+    height: 50px;
     width: 100%;
     /* top: 100vh; */
   }
