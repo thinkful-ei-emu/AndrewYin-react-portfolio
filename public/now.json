@@ -1,10 +1,23 @@
 {
   "version": 2,
-  "name": "andrews-stuff",
+  "name": "Andrew Yin's Portfolio",
+  "alias": "andrews-stuff",
   "routes": [
     {
       "src": "^/static/(.*)",
       "dest": "/static/$1"
+    },
+    {
+      "src": "^/favicon.ico$",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "^/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
+      "src": "^/site.webmanifest.json$",
+      "dest": "/site.webmanifest.json"
     },
     {
       "src": ".*",

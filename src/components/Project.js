@@ -65,6 +65,7 @@ class Project extends React.Component {
               href={this.props.project.githubLink}
               id='githubLink'
               className='demoLink'
+              rel='noopener noreferrer' target='_blank'
             >
               Github
             </a>
@@ -73,6 +74,7 @@ class Project extends React.Component {
               href={this.props.project.demoLink}
               id='demoLink'
               className='demoLink'
+              rel='noopener noreferrer' target='_blank'
             >
               Live Demo
             </a>

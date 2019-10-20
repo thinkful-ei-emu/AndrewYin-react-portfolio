@@ -23,8 +23,8 @@ class Contact extends React.Component {
         <section className='myInfoSection'>
           <p>Email me directly at: andrewyin1994@gmail.com</p>
           <div className='myStuffSection'>
-            <a href="https://github.com/andrewyin1994" id='myGithubRepo'><img className='myStuff' src={require('../images/github.png')} alt='Github'></img></a>
-            <a href="https://www.linkedin.com/in/andrew-yin-39a389128/" id='myLinkedIn'><img className='myStuff' src={require('../images/linkedin.png')} alt='LinkedIn'></img></a>
+            <a href="https://github.com/andrewyin1994" rel='noopener noreferrer' target='_blank' id='myGithubRepo'><img className='myStuff' src={require('../images/github.png')} alt='Github'></img></a>
+            <a href="https://www.linkedin.com/in/andrew-yin-39a389128/" rel='noopener noreferrer' target='_blank' id='myLinkedIn'><img className='myStuff' src={require('../images/linkedin.png')} alt='LinkedIn'></img></a>
           </div>
         </section>
 
