@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://andrews-stuff.netlify.com/",
   "private": true,
   "dependencies": {
     "prop-types": "^15.7.2",

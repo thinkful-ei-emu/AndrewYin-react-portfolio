@@ -11,3 +11,32 @@
 .aboutSection p {
   margin: 30px 0;
 }
+
+.devSection {
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  justify-items: center;
+}
+
+.devItem {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.devItem h3 {
+  margin: 20px 0;
+}
+.devItem p {
+  line-height: 24px;
+  margin: 10px 0;
+}
+@media only screen and (min-width: 512px) {
+  .devSection {
+    grid-template-columns: repeat(2, 250px);
+  }
+}@media only screen and (min-width: 1024px) {
+  .devSection {
+    grid-template-columns: repeat(4, 250px);
+  }
+}

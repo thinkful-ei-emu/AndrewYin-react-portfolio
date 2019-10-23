@@ -41,10 +41,14 @@
   bottom: 0;
 }
 
-.myInfoSection{
+.myInfoSection {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.myInfoSection p {
+  line-height: 24px;
+  margin-bottom: 25px;
 }
 
 .myStuffSection {
